@@ -27,10 +27,10 @@
 			</div>
 		</div>
 		<div class="content">
-			<h2 class="page"> Pricing </h2>
+			<h2 class="page"> Site Map </h2>
 			<div class="contain">
 				<?php 
-					include_once './pages/pricing.php';
+					include_once './pages/site_map.php';
 				?>
 			</div>
 		</div>

@@ -4,9 +4,9 @@ function pagechange(location, name){
 		method: 'GET',
 		async: false,
 		success: function(html){
-			$('DIV.content').fadeOut(500);
-			$('DIV.content').slideUp(300);
-			$('DIV.page > H2').fadeOut(500);
+			$('DIV.contain').fadeOut(500);
+			$('DIV.contain').slideUp(300);
+			$('.page').fadeOut(500);
 			setTimeout(function(){
 				$('DIV.contain').html(html);
 				$('DIV.contain').fadeIn(500);

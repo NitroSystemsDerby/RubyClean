@@ -7,6 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Ruby Clean</title>
 	<link rel="stylesheet" type="text/css" href="CSS/main_style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="/JS/pages.js" type="text/javascript"></script>
+	<meta name="description" content="Ruby Clean is a Derby based domestic cleaning company. Who are here to make sure that your evrything is clean and tidy so that you are happy."/>
+	<meta name="keywords" content="domestic cleaner, cleaning, derby cleaner, domestic cleaner derby, derby"/>
 </head>
 <body>
 	<div class="wrapper">
@@ -38,7 +42,7 @@
 				<p><a href="/privacy_policy.php" class="int">Privacy Policy</a></p>
 				<p><a href="/terms_of_use.php" class="int">Terms of Use Policy</a></p>
 			</div><div class="fbox">
-				<a href="/index.php" class="int">
+				<a href="/index.php">
 					<img src="IMG/Logo/logo_small.png" alt="Ruby Clean"/>
 				</a>
 				<p>@: <a href="mailTo:contact@rubyclean.co.uk">contact@rubyclean.co.uk</a></p>

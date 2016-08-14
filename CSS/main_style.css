@@ -9,6 +9,7 @@ BODY {
 	padding: 0;
 	background-color: #AAA;
 	font-family: 'Calibri', Arial, Sans-Serif;
+	background-image: url('IMG/body/confectionary.png');
 }
 DIV.wrapper {
 	width: 100%;
@@ -16,6 +17,7 @@ DIV.wrapper {
 	margin: 0 auto;
 	background-color: #FFF;
 	overflow-x: hidden;
+	box-shadow: 0px 0px 20px #000;
 }
 
 DIV.head {
@@ -37,7 +39,7 @@ DIV.logo > H1 {
 
 DIV.logo > IMG {
 	width: 100%;
-	opacity: 0.9;
+	opacity: 0.95;
 	margin-top: -30px;
 }
 
