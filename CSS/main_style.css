@@ -19,9 +19,10 @@ DIV.wrapper {
 }
 
 DIV.head {
-	background-image: url('IMG/head/backs/main.jpg');
+	background-image: url('IMG/head/backs/main.png');
+	background-position: bottom;
 	background-repeat: no-repeat;
-	height: 485px;
+	height: 350px;
 	overflow: hidden;
 }
 
@@ -36,15 +37,15 @@ DIV.logo > H1 {
 
 DIV.logo > IMG {
 	width: 100%;
-	margin-top: 150px;
 	opacity: 0.9;
+	margin-top: -30px;
 }
 
 DIV.menu {
 	width: 100%;
 	background-color: rgba(200,200,200,0.9);
 	height: 70px;
-	margin-top: 415px;
+	margin-top: 280px;
 	text-align: right;
 }
 

@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="content">
-			<h2> Home </h2>
+			<h2 class="page"> Home </h2>
 			<div class="contain">
 				<?php 
 					include_once './pages/index.php';
@@ -34,11 +34,11 @@
 		</div>
 		<div class="footer">
 			<div class="fbox">
-				<p><a href="/site_map.php">Site Map</a></p>
-				<p><a href="/privacy_policy.php">Privacy Policy</a></p>
-				<p><a href="/terms_of_use.php">Terms of Use Policy</a></p>
+				<p><a href="/site_map.php" class="int">Site Map</a></p>
+				<p><a href="/privacy_policy.php" class="int">Privacy Policy</a></p>
+				<p><a href="/terms_of_use.php" class="int">Terms of Use Policy</a></p>
 			</div><div class="fbox">
-				<a href="/">
+				<a href="/index.php" class="int">
 					<img src="IMG/Logo/logo_small.png" alt="Ruby Clean"/>
 				</a>
 				<p>@: <a href="mailTo:contact@rubyclean.co.uk">contact@rubyclean.co.uk</a></p>
